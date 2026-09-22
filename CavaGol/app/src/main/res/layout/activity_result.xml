@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Juego terminado.\nTu puntaje: 0/10"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/brand_blue_dark"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="14dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_option_default"
+        android:backgroundTint="@null"
+        android:text="Jugar de nuevo"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnBackToHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="14dp"
+        android:textColor="@color/brand_blue_dark"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent"
+        android:text="Volver al inicio" />
+
+
+</LinearLayout>

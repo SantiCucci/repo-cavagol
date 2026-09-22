@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Marco celeste redondeado que envuelve el video.
+    Un archivo <shape> en res/drawable/ es una forma "dibujada por código"
+    (no una imagen/foto), liviana y fácil de reutilizar.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <stroke android:width="4dp" android:color="@color/brand_blue" /> <!-- el borde celeste -->
+    <corners android:radius="16dp" />                                <!-- puntas redondeadas -->
+    <solid android:color="@color/black" />                           <!-- relleno negro (se ve mientras carga el video) -->
+</shape>
